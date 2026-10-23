@@ -62,3 +62,11 @@ Logo text is converted to vector outlines, so the SVG and PNG files render the s
 - The consultation form is frontend-only. It opens WhatsApp (+91 81473 67609) with the details pre-filled.
 - The Facebook link is a placeholder because the current site has no page URL.
 - Client brand names appear as text. Their logos were not reused.
+
+## Deploying to GitHub Pages
+
+```bash
+npm run deploy   # builds with the /esteem-interiors-demo/ base path and pushes dist/ to the gh-pages branch
+```
+
+Live: https://mahammad-rizwan.github.io/esteem-interiors-demo/
